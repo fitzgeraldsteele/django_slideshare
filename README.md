@@ -17,6 +17,8 @@ Dependancies
 Roadmap
 =======
 * Implement the embed code as a template tag, instead of hard coded in the template
+* add a 404 page for when the requested presentation doesn't exist
+* use slideshare slug as another URI for the presentation
 * See if it is possible to use generic views, instead of writing my own
 * Use the slideshare developer API, instead of storing the embed code and scraping the presentation metadata from the url
 * Subscribe to a user, and automatically discover presentations from that user (with filters/querying)

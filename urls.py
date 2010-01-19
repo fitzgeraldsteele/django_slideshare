@@ -7,7 +7,6 @@ urlpatterns = patterns('',
     # Example:
     (r'^(?P<object_id>\d+)/', views.show ),
     (r'^demo/', views.demo ),
-    (r'^about/$', views.about ),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:

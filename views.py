@@ -19,3 +19,4 @@ def show(request, object_id):
     #return HttpResponse("Show a presentation: " + object_id)
     pres = Slideshare.objects.get(id=int(object_id))
     return render_to_response('slideshare/presentation.html', {'pres':pres})
+    

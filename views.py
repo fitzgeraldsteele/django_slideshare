@@ -5,10 +5,6 @@ from django.template import RequestContext
 from django.http import HttpResponse, HttpResponseRedirect
 
 from presentations.slideshare.models import Slideshare
-
-def about(request):
-    """docstring for about"""
-    return HttpResponse("This is the about page")
     
 def demo(request):
     """docstring for about"""

@@ -1,3 +1,5 @@
+{% load slideshare_tags %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +14,11 @@
         <p>
         {{ pres.abstract}}
         </p>
+
+<p>{% slideshare_embed pres %}</p>
+
+<p>{% slideshare_test %}</p>
         
-        <div style="width:{{ pres.width }}px;text-align:left" id="__ss_2865567">{# <a style="font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;" href="http://www.slideshare.net/actdotorg/holistic-admissions" title="Holistic Admissions">Holistic Admissions</a> #}<object style="margin:0px" width="{{ pres.width }}" height="{{ pres.height }}"><param name="movie" value="{{ pres.presentationurl}}" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="{{ pres.presentationurl}}" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="{{ pres.width }}" height="{{ pres.height }}"></embed></object><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;">View more <a style="text-decoration:underline;" href="http://www.slideshare.net/">presentations</a> from <a style="text-decoration:underline;" href="http://www.slideshare.net/actdotorg">ACT, Inc.</a>.</div></div> 
-        </div>
+
 	</body>
 	</html>

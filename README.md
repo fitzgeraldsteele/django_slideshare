@@ -16,7 +16,6 @@ Dependancies
 
 Roadmap
 -------
-* Implement the embed code as a template tag, instead of hard coded in the template
 * add a 404 page for when the requested presentation doesn't exist
 * use slideshare slug as another URI for the presentation
 * Proper package/dependency management using pip, or whatever else the cool kids are using these days
